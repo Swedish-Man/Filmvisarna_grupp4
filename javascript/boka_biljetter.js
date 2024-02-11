@@ -11,7 +11,7 @@ Given('I log in as a user', () => {
 Given('I navigate to {string}', (page) => {
   const pages = {
     "the booking page": '/bokning/6523d4e91451567f3ed4cebf',
-    // Add more pages as needed
+
   };
   cy.visit(pages[page]);
 });
